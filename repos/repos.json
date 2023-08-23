@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "android_kernel_samsung_o1s",
       "repo": "https://github.com/HyperRamzey/android_kernel_samsung_o1s",
-      "branch": "lineage-20.0",
+      "branch": "lineage-20",
       "device": "o1s",
       "defconfig": "exynos2100-o1sxxx"
     },
