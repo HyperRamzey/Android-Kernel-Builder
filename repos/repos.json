@@ -4,8 +4,8 @@
       "name": "android_kernel_samsung_o1s",
       "repo": "https://github.com/HyperRamzey/android_kernel_samsung_o1s",
       "branch": "lineage-20",
-      "device": "o1s",
-      "defconfig": "exynos2100-o1sxxx"
+      "device": "exynos2100-o1sxxx",
+      "defconfig": "exynos2100-o1sxxx_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
