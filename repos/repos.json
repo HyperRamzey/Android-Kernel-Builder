@@ -1,17 +1,11 @@
-"toolchains": [
-  {
-    "repo": "https://github.com/kdrag0n/proton-clang",
-    "branch": "master",
-    "name": "proton-clang",
-    "binPath": ["./bin"]
-  }
-][
+[
   {
     "kernelSource": {
-      "name": "Test-KernelSU-Proton",
+      "name": "android_kernel_samsung_o1s",
       "repo": "https://github.com/HyperRamzey/android_kernel_samsung_o1s",
-      "branch": "lineage-20",
-      "defconfig": "exynos2100-o1sxxx_defconfig"
+      "branch": "lineage-20.0",
+      "device": "o1s",
+      "defconfig": "exynos2100-o1sxxx"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -19,10 +13,10 @@
         "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "master",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       }
     ],
-    "ccache": true,
+    "ccache":false,
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -42,11 +36,11 @@
         "LLVM_DIS": "proton-clang/bin/llvm-dis"
       }
     },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/osm0sis/AnyKernel3",
-      "branch": "master"
-    }
+  "AnyKernel3": {
+    "use": false,
+    "release": false,
+    "repo": "",
+    "branch": ""
+  }
   }
 ]
