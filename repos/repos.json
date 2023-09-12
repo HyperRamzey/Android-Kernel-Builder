@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "android_kernel_samsung_o1s",
-      "repo": "https://github.com/HyperRamzey/android_kernel_samsung_o1s",
-      "branch": "lineage-20",
-      "device": "exynos2100-o1sxxx",
-      "defconfig": "exynos2100-o1sxxx_defconfig"
+      "name": "android_kernel_samsung_starlte",
+      "repo": "https://github.com/flar2/starlte",
+      "branch": "ElementalX-3.00",
+      "device": "starlte",
+      "defconfig": "elementalx_starlte_oc_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
